@@ -33,13 +33,43 @@ public class ExtractorTileEntity extends TileEntity  implements INamedContainerP
 	private static ITextComponent customName = new TranslationTextComponent("container.professionsmod.extractor");
 	protected NonNullList<ItemStack> items = NonNullList.withSize(11, ItemStack.EMPTY);
 	protected FluidStack fluid = FluidStack.EMPTY;
-	//map.put(Items.GLASS_BOTTLE, ItemInit.CREOSOTE_GLASS.get());
-	//map.put(Items.BUCKET, ItemInit.CREOSOTE_BUCKET.get());
 	public ExtractorTileEntity(TileEntityType<?> tileEntityTypeIn) {
 		super(tileEntityTypeIn);
 	}
 	public ExtractorTileEntity() {
 		this(ModTileEntityTypes.EXTRACTOR.get());
+	}
+	public boolean addItem(ItemStack stack) {
+		for(int i = 0; i < 9; ++i){
+			if(this.getItem(i).isEmpty()) {
+				this.setItem(i, stack);
+				return true;
+			}
+		}
+		return false;
+	}
+	@Override
+	public Container createMenu(int p_createMenu_1_, PlayerInventory p_createMenu_2_, PlayerEntity p_createMenu_3_) {
+		return new ExtractorContainer(p_createMenu_1_, p_createMenu_2_, this, this.extractorData);
+	}
+	@Override
+	public ITextComponent getDisplayName() {
+		return customName;
+	}
+	//-----------------------------------------------------Data management-----------------------------------------------------
+	@Override
+	public void load(BlockState p_230337_1_, CompoundNBT p_230337_2_) {
+		super.load(p_230337_1_, p_230337_2_);
+		this.items = NonNullList.withSize(this.getContainerSize(), ItemStack.EMPTY);
+		ItemStackHelper.loadAllItems(p_230337_2_, this.items);
+		this.fluid = FluidStack.loadFluidStackFromNBT(p_230337_2_);
+	}	
+	@Override
+	public CompoundNBT save(CompoundNBT p_189515_1_) {
+		super.save(p_189515_1_);
+		ItemStackHelper.saveAllItems(p_189515_1_, this.items);
+		this.fluid.writeToNBT(p_189515_1_);
+		return p_189515_1_;
 	}
 	protected final IIntArray extractorData = new IIntArray() {
 		@Override
@@ -65,37 +95,7 @@ public class ExtractorTileEntity extends TileEntity  implements INamedContainerP
 			return 1;
 		}
 	};
-	public boolean addItem(ItemStack stack) {
-		for(int i = 0; i < 9; ++i){
-			if(this.getItem(i).isEmpty()) {
-				this.setItem(i, stack);
-				return true;
-			}
-		}
-		return false;
-	}
-	@Override
-	public Container createMenu(int p_createMenu_1_, PlayerInventory p_createMenu_2_, PlayerEntity p_createMenu_3_) {
-		return new ExtractorContainer(p_createMenu_1_, p_createMenu_2_, this, this.extractorData);
-	}
-	@Override
-	public ITextComponent getDisplayName() {
-		return customName;
-	}
-	@Override
-	public void load(BlockState p_230337_1_, CompoundNBT p_230337_2_) {
-		super.load(p_230337_1_, p_230337_2_);
-		this.items = NonNullList.withSize(this.getContainerSize(), ItemStack.EMPTY);
-		ItemStackHelper.loadAllItems(p_230337_2_, this.items);
-		this.fluid = FluidStack.loadFluidStackFromNBT(p_230337_2_);
-	}	
-	@Override
-	public CompoundNBT save(CompoundNBT p_189515_1_) {
-		super.save(p_189515_1_);
-		ItemStackHelper.saveAllItems(p_189515_1_, this.items);
-		this.fluid.writeToNBT(p_189515_1_);
-		return p_189515_1_;
-	}
+	//-----------------------------------------------------Inventory-----------------------------------------------------
 	@Override
 	public void clearContent() {
 		this.items.clear();
@@ -172,6 +172,7 @@ public class ExtractorTileEntity extends TileEntity  implements INamedContainerP
 			return player.distanceToSqr((double)this.worldPosition.getX() + 0.5D, (double)this.worldPosition.getY() + 0.5D, (double)this.worldPosition.getZ() + 0.5D) <= 64.0D;
 		}
 	}
+	//-----------------------------------------------------Fluid-----------------------------------------------------
 	@Override
 	public FluidStack getFluid() {
 		return this.fluid;
