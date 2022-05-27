@@ -127,7 +127,6 @@ public class ExtractorTileEntity extends TileEntity  implements INamedContainerP
 	}
 	@Override
 	public void setItem(int index, ItemStack stack) {
-		System.out.println(this.level.isClientSide);
 		this.items.set(index, stack);
 		if (stack.getCount() > this.getMaxStackSize()) {
 			stack.setCount(this.getMaxStackSize());
