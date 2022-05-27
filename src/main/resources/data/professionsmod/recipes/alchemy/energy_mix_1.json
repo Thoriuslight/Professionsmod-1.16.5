@@ -1,0 +1,21 @@
+{
+  "type": "professionsmod:alchemy_shapeless",
+  "requirement": "herbology",
+  "ingredients": [
+    {
+      "item": "minecraft:brown_mushroom"
+    },
+    {
+      "item": "minecraft:red_mushroom"
+    },
+    {
+      "item": "minecraft:oxeye_daisy"
+    },
+    {
+		"item": "minecraft:snowball"
+    }
+  ],
+  "result": {
+    "item": "professionsmod:energy_mix"
+  }
+}

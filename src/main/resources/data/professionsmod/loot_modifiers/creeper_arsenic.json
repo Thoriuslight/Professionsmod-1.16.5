@@ -1,0 +1,17 @@
+{
+  "conditions": [
+    {
+      "condition": "minecraft:random_chance",
+      "chance": 0.05
+    },
+    {
+      "condition": "professionsmod:entity_killed",
+      "predicate": {
+        "type": "minecraft:creeper"
+      }
+    }
+  ],
+  "item": "professionsmod:arsenic",
+  "min": 1,
+  "max": 1
+}

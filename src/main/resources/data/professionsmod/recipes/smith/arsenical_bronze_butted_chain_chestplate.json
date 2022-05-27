@@ -1,0 +1,18 @@
+{
+  "type": "professionsmod:smith",
+  "requirement": "weak_chain_armor",
+  "mode": "1",
+  "pattern": [
+  	"C C",
+    "CCC",
+    "CCC"
+  ],
+  "key": {
+    "C": {
+      "item": "professionsmod:copper_chain"
+    }
+  },
+  "result": {
+    "item": "professionsmod:copper_butted_chain_chestplate"
+  }
+}

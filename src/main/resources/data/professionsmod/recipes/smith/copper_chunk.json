@@ -1,0 +1,12 @@
+{
+  "type": "professionsmod:crushing",
+  "requirement": "basic_smithing",
+  "hardness": 100,
+  "ingredient": {
+    "tag": "forge:ores/copper"
+  },
+  "result": {
+    "item": "professionsmod:copper_chunk",
+    "count": 8
+  }
+}

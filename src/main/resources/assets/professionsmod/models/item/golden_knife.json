@@ -1,0 +1,6 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "professionsmod:items/golden_knife"
+	}
+}

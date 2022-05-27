@@ -1,0 +1,1 @@
+Items in the Inspection Table reveal more information about themselves.

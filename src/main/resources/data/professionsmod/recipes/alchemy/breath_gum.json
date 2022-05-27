@@ -1,0 +1,10 @@
+{
+  "type": "professionsmod:grinding",
+  "requirement": "herbology",
+  "ingredient": {
+    "item": "professionsmod:breath_mix"
+  },
+  "result": {
+    "item": "professionsmod:breath_gum"
+  }
+}

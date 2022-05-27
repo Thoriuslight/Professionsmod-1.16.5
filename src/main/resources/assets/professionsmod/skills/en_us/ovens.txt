@@ -1,0 +1,2 @@
+Can process furnace recipes faster and adds an extra step into ore processing.
+To create the multiblock structure, you have to build a 3x3x3 cube out of Insulation Bricks and then right-click the middle of one of the sides with a Wooden Hammer.

@@ -1,0 +1,29 @@
+{
+  "type": "professionsmod:smith",
+  "requirement": "inspection_0",
+  "pattern": [
+  	"GSC",
+    "###",
+    "I I"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:smooth_stone_slab"
+    },
+        "I": {
+      "item": "minecraft:stick"
+    },
+		"G": {
+      "item": "minecraft:glass"
+    },
+		"S": {
+      "item": "professionsmod:silver_ingot"
+    },
+		"C": {
+      "item": "professionsmod:copper_ingot"
+    }
+  },
+  "result": {
+    "item": "professionsmod:inspectiontable_block"
+  }
+}

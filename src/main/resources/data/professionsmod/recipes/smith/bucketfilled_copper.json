@@ -1,0 +1,20 @@
+{
+  "type": "professionsmod:smith",
+  "requirement": "basic_smithing",
+  "pattern": [
+    "###",
+    "#B#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "professionsmod:copper_nugget"
+    },
+    "B": {
+    	"item": "minecraft:flower_pot"
+    }
+  },
+  "result": {
+    "item": "professionsmod:bucketfilled_copper"
+  }
+}

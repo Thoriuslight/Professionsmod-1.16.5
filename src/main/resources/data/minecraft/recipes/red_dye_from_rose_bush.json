@@ -1,0 +1,11 @@
+{
+  "type": "professionsmod:grinding",
+  "requirement": "basic_alchemy",
+  "ingredient": {
+      "item": "minecraft:rose_bush"
+  },
+  "result": {
+    "item": "minecraft:red_dye",
+    "count": 2
+  }
+}

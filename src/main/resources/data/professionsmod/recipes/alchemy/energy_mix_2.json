@@ -1,0 +1,21 @@
+{
+  "type": "professionsmod:alchemy_shapeless",
+  "requirement": "herbology",
+  "ingredients": [
+    {
+      "item": "minecraft:spider_eye"
+    },
+    {
+      "item": "minecraft:dried_kelp"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+		"item": "professionsmod:water_bowl"
+    }
+  ],
+  "result": {
+    "item": "professionsmod:energy_mix"
+  }
+}

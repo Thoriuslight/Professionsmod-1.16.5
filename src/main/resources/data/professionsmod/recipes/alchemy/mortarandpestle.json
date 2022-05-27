@@ -1,0 +1,19 @@
+{
+  "type": "professionsmod:alchemy",
+  "requirement": "basic_alchemy",
+  "pattern": [
+    "#G#",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:stone"
+    },
+    "G": {
+    	"item": "minecraft:granite"
+    }
+  },
+  "result": {
+    "item": "professionsmod:mortarandpestle"
+  }
+}

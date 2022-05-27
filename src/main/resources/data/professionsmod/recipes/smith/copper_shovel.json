@@ -1,0 +1,19 @@
+{
+  "type": "professionsmod:smith",
+  "requirement": "basic_smithing",
+  "pattern": [
+    "#",
+    "I"
+  ],
+  "key": {
+    "#": {
+      "item": "professionsmod:copper_shovelhead"
+    },
+        "I": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "professionsmod:copper_shovel"
+  }
+}

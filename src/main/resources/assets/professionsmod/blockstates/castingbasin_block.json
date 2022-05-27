@@ -1,0 +1,15 @@
+{
+	"multipart": [
+	    {   "apply": { "model": "professionsmod:block/castingbasin_block" }},
+		{   "when": {"fill": 1},
+			"apply": [
+                { "model": "professionsmod:block/clay_fill" }
+            ]
+        },
+		{   "when": {"fill": 2},
+			"apply": [
+                { "model": "professionsmod:block/dough_fill" }
+			]
+		}
+	]
+}

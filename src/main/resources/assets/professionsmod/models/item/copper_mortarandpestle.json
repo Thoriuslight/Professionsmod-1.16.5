@@ -1,0 +1,18 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "professionsmod:items/copper_mortarandpestle"
+	},
+	"overrides": [{
+		"predicate": {
+			"professionsmod:state": 0.0
+		},
+			"model": "professionsmod:item/copper_mortarandpestle_empty"
+		},
+		{"predicate": {
+			"professionsmod:state": 1.0
+		},
+			"model": "professionsmod:item/copper_mortarandpestle_filled"
+		}
+	]
+}

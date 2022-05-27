@@ -1,0 +1,27 @@
+{
+  "type": "professionsmod:alchemy_shapeless",
+  "requirement": "basic_alchemy",
+  "ingredients": [
+    {
+      "item": "professionsmod:flour"
+    },
+	{
+      "item": "professionsmod:flour"
+    },
+	{
+      "item": "professionsmod:flour"
+    },
+	{
+      "item": "professionsmod:sourdough"
+    },
+    {
+		"type": "forge:nbt",
+		"item": "minecraft:potion",
+		"nbt": "{Potion:'minecraft:water'}"
+    }
+  ],
+  "result": {
+    "item": "professionsmod:dough",
+    "count": 3
+  }
+}

@@ -1,0 +1,1 @@
+A more efficient way to work with metals. By right-clicking on the block with an Item, you can add fuel and materials to the crucible. To reach high enough temperatures

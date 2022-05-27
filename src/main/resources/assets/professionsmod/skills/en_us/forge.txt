@@ -1,0 +1,1 @@
+Putting tools on an active Forge heats them, allowing various changes to happen in their crystal structure. You can add fuel to the Forge by right-clicking on it with a combustible item.

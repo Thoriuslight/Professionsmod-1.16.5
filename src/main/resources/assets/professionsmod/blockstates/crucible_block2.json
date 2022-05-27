@@ -1,0 +1,12 @@
+{
+    "variants": {
+        "facing=north,lit=false": { "model": "professionsmod:block/crucible_block" },
+        "facing=south,lit=false": { "model": "professionsmod:block/crucible_block", "y": 180 },
+        "facing=west,lit=false":  { "model": "professionsmod:block/crucible_block", "y": 270 },
+        "facing=east,lit=false":  { "model": "professionsmod:block/crucible_block", "y": 90 },
+        "facing=north,lit=true": { "model": "professionsmod:block/crucible_block_lit" },
+        "facing=south,lit=true": { "model": "professionsmod:block/crucible_block_lit", "y": 180 },
+        "facing=west,lit=true":  { "model": "professionsmod:block/crucible_block_lit", "y": 270 },
+        "facing=east,lit=true":  { "model": "professionsmod:block/crucible_block_lit", "y": 90 }
+    }
+}

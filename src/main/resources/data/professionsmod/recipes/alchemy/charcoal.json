@@ -1,0 +1,16 @@
+{
+  "type": "professionsmod:oven",
+  "incount": 1,
+  "count": 1,
+  "isexothermic": true,
+  "ingredient": {
+    "tag": "minecraft:logs_that_burn"
+  },
+  "result":{
+    "item": "minecraft:charcoal"
+  },
+  "bonus": {
+  	"fluid": "professionsmod:creosote_fluid",
+  	"mb": 50
+  }
+}

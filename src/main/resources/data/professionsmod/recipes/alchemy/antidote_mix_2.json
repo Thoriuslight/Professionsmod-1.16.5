@@ -1,0 +1,24 @@
+{
+  "type": "professionsmod:alchemy_shapeless",
+  "requirement": "herbology",
+  "ingredients": [
+    {
+      "item": "professionsmod:flour"
+    },
+    {
+      "item": "minecraft:carrot"
+    },
+    {
+      "item": "minecraft:potato"
+    },
+    {
+      "item": "minecraft:pink_tulip"
+    },
+    {
+		"item": "professionsmod:water_bowl"
+    }
+  ],
+  "result": {
+    "item": "professionsmod:antidote_mix"
+  }
+}

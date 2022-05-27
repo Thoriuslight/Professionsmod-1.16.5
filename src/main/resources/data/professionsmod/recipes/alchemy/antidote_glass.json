@@ -1,0 +1,17 @@
+{
+  "type": "professionsmod:alchemy_shapeless",
+  "requirement": "herbology",
+  "ingredients": [
+    {
+		"type": "forge:nbt",
+		"item": "minecraft:potion",
+		"nbt": "{Potion:'minecraft:water'}"
+    },
+    {
+		"item": "professionsmod:antidote"
+    }
+  ],
+  "result": {
+    "item": "professionsmod:antidote_glass"
+  }
+}

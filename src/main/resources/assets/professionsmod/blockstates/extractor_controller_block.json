@@ -1,0 +1,36 @@
+{
+	"multipart": [
+		{   "when": {"facing":"south"},
+			"apply": [{ "model": "professionsmod:block/extractor_block" }]
+        },
+		{   "when": {"facing":"west"},
+			"apply": [{ "model": "professionsmod:block/extractor_block", "y": 90 }]
+        },
+        		{   "when": {"facing":"north"},
+			"apply": [{ "model": "professionsmod:block/extractor_block",  "y": 180 }]
+        },
+		{   "when": {"facing":"east"},
+			"apply": [{ "model": "professionsmod:block/extractor_block", "y": 270 }]
+        },
+        {   "when": {"drain_facing":"east"},
+			"apply": [
+                { "model": "professionsmod:block/ext_pipe"}
+            ]
+        },
+		{   "when": {"drain_facing":"south"},
+			"apply": [
+                { "model": "professionsmod:block/ext_pipe", "y": 90 }
+            ]
+        },
+		{   "when": {"drain_facing":"west"},
+			"apply": [
+                { "model": "professionsmod:block/ext_pipe", "y": 180 }
+            ]
+        },
+		{   "when": {"drain_facing":"north"},
+			"apply": [
+                { "model": "professionsmod:block/ext_pipe", "y": 270 }
+            ]
+        }
+	]
+}

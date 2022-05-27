@@ -1,0 +1,1 @@
+By looking at them, advanced heat sources like forges and crucibles tell you the maximum temperature they can heat things to in steps of 500 degree Celsius.

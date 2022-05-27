@@ -1,0 +1,36 @@
+modLoader="javafml"
+loaderVersion="[31,)"
+license="MIT License"
+# issueTrackerURL="aaa"
+[[mods]]
+# The modid of the mod
+modId="professionsmod"
+version="0.0.12.0 beta"
+displayName="Profession Mod"
+# updateJSONURL="aaa"
+# displayURL="aaa"
+# logoFile="aaa"
+credits="TurtyWurty for Forge tutorials, Forge Forum members, the Forge team"
+authors="Thoriuslight"
+# The description text for the mod (multi line!) (#mandatory)
+description='''
+Adds various professions to minecraft.
+'''
+[[dependencies.professionsmod]]
+    # the modid of the dependency
+    modId="forge" #mandatory
+    # Does this dependency have to exist - if not, ordering below must be specified
+    mandatory=true #mandatory
+    # The version range of the dependency
+    versionRange="[31,)" #mandatory
+    # An ordering relationship for the dependency - BEFORE or AFTER required if the relationship is not mandatory
+    ordering="NONE"
+    # Side this dependency is applied on - BOTH, CLIENT or SERVER
+    side="BOTH"
+
+[[dependencies.professionsmod]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5]"
+    ordering="NONE"
+    side="BOTH"

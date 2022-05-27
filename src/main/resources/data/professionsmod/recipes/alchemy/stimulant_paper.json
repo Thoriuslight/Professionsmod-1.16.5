@@ -1,0 +1,15 @@
+{
+  "type": "professionsmod:alchemy_shapeless",
+  "requirement": "herbology",
+  "ingredients": [
+    {
+      "item": "minecraft:paper"
+    },
+    {
+		"item": "professionsmod:stimulant_cream"
+    }
+  ],
+  "result": {
+    "item": "professionsmod:stimulant_paper"
+  }
+}

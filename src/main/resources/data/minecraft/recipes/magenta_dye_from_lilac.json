@@ -1,0 +1,11 @@
+{
+  "type": "professionsmod:grinding",
+  "requirement": "basic_alchemy",
+  "ingredient": {
+      "item": "minecraft:lilac"
+  },
+  "result": {
+    "item": "minecraft:magenta_dye",
+    "count": 2
+  }
+}

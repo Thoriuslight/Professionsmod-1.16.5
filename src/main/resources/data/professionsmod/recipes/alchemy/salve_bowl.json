@@ -1,0 +1,15 @@
+{
+  "type": "professionsmod:alchemy_shapeless",
+  "requirement": "herbology",
+  "ingredients": [
+    {
+      "item": "minecraft:bowl"
+    },
+    {
+		"item": "professionsmod:salve_cream"
+    }
+  ],
+  "result": {
+    "item": "professionsmod:salve_bowl"
+  }
+}

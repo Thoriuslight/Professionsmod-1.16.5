@@ -1,0 +1,21 @@
+{
+  "type": "professionsmod:alchemy_shapeless",
+  "requirement": "herbology",
+  "ingredients": [
+    {
+      "item": "minecraft:red_mushroom"
+    },
+    {
+      "item": "minecraft:cyan_dye"
+    },
+    {
+      "item": "minecraft:egg"
+    },
+    {
+		"item": "professionsmod:water_bowl"
+    }
+  ],
+  "result": {
+    "item": "professionsmod:stimulant_mix"
+  }
+}

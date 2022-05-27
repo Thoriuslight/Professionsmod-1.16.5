@@ -1,0 +1,17 @@
+{
+  "type": "professionsmod:smith",
+  "requirement": "weak_chain_armor",
+  "mode": "1",
+  "pattern": [
+    "CCC",
+    "C C"
+  ],
+  "key": {
+    "C": {
+      "item": "professionsmod:silver_chain"
+    }
+  },
+  "result": {
+    "item": "professionsmod:silver_butted_chain_helmet"
+  }
+}

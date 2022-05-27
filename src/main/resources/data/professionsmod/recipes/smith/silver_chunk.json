@@ -1,0 +1,12 @@
+{
+  "type": "professionsmod:crushing",
+  "requirement": "basic_smithing",
+  "hardness": 100,
+  "ingredient": {
+    "tag": "forge:ores/silver"
+  },
+  "result": {
+    "item": "professionsmod:silver_chunk",
+    "count": 8
+  }
+}

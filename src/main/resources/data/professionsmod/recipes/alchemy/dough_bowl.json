@@ -1,0 +1,25 @@
+{
+  "type": "professionsmod:alchemy_shapeless",
+  "requirement": "basic_alchemy",
+  "ingredients": [
+    {
+      "item": "professionsmod:flour"
+    },
+	{
+      "item": "professionsmod:flour"
+    },
+	{
+      "item": "professionsmod:flour"
+    },
+	{
+      "item": "professionsmod:sourdough"
+    },
+    {
+		"item": "professionsmod:water_bowl"
+    }
+  ],
+  "result": {
+    "item": "professionsmod:dough",
+    "count": 3
+  }
+}

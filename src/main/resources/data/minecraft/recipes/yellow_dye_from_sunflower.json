@@ -1,0 +1,11 @@
+{
+  "type": "professionsmod:grinding",
+  "requirement": "basic_alchemy",
+  "ingredient": {
+      "item": "minecraft:sunflower"
+  },
+  "result": {
+    "item": "minecraft:yellow_dye",
+    "count": 2
+  }
+}

@@ -1,0 +1,20 @@
+{
+	"multipart": [
+	    {   "apply": { "model": "professionsmod:block/glass_jar" }},
+		{   "when": {"type": 1},
+			"apply": [
+                { "model": "professionsmod:block/glass_jar_fill_1" }
+            ]
+        },
+        {   "when": {"type": 2},
+			"apply": [
+                { "model": "professionsmod:block/glass_jar_fill_2" }
+            ]
+        },
+        {   "when": {"type": 3},
+			"apply": [
+                { "model": "professionsmod:block/glass_jar_fill_3" }
+            ]
+        }
+	]
+}

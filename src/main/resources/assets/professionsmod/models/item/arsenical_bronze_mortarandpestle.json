@@ -1,0 +1,18 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "professionsmod:items/arsenical_bronze_mortarandpestle"
+	},
+	"overrides": [{
+		"predicate": {
+			"professionsmod:state": 0.0
+		},
+			"model": "professionsmod:item/arsenical_bronze_mortarandpestle_empty"
+		},
+		{"predicate": {
+			"professionsmod:state": 1.0
+		},
+			"model": "professionsmod:item/arsenical_bronze_mortarandpestle_filled"
+		}
+	]
+}

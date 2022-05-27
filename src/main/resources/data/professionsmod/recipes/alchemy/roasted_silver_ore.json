@@ -1,0 +1,16 @@
+{
+  "type": "professionsmod:oven",
+  "incount": 8,
+  "count": 1,
+  "isexothermic": false,
+  "ingredient": {
+    "item": "professionsmod:silver_ore_dust"
+  },
+  "result": {
+    "item": "professionsmod:roasted_silver_ore"
+  },
+  "bonus": {
+  	"item": "professionsmod:arsenic",
+  	"chance": 0.04
+  }
+}

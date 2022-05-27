@@ -1,0 +1,10 @@
+{
+  "type": "professionsmod:grinding",
+  "requirement": "herbology",
+  "ingredient": {
+    "item": "professionsmod:salve_mix"
+  },
+  "result": {
+    "item": "professionsmod:salve_cream"
+  }
+}

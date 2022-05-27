@@ -1,0 +1,16 @@
+{
+  "type": "professionsmod:smith",
+  "requirement": "basic_smithing",
+  "pattern": [
+    "# #",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:brick"
+    }
+  },
+  "result": {
+    "item": "professionsmod:castingbasin_block"
+  }
+}

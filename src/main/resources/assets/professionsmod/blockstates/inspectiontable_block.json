@@ -1,0 +1,8 @@
+{
+	"variants":{
+		"facing=north": { "model": "professionsmod:block/inspectiontable_block_n"},
+		"facing=south": { "model": "professionsmod:block/inspectiontable_block_s"},
+		"facing=east": { "model": "professionsmod:block/inspectiontable_block_w"},
+		"facing=west": { "model": "professionsmod:block/inspectiontable_block_e"}
+	}
+}

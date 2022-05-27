@@ -1,0 +1,18 @@
+{
+  "type": "professionsmod:smith",
+  "requirement": "weak_chain_armor",
+  "mode": "1",
+  "pattern": [
+  	"C C",
+    "CCC",
+    "CCC"
+  ],
+  "key": {
+    "C": {
+      "item": "professionsmod:silver_chain"
+    }
+  },
+  "result": {
+    "item": "professionsmod:silver_butted_chain_chestplate"
+  }
+}

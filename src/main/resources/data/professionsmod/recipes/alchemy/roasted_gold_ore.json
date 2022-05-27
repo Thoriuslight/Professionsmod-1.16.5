@@ -1,0 +1,16 @@
+{
+  "type": "professionsmod:oven",
+  "incount": 9,
+  "count": 1,
+  "isexothermic": false,
+  "ingredient": {
+    "item": "professionsmod:gold_ore_dust"
+  },
+  "result": {
+    "item": "professionsmod:roasted_gold_ore"
+  },
+  "bonus": {
+  	"item": "professionsmod:arsenic",
+  	"chance": 0.04
+  }
+}

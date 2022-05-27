@@ -1,0 +1,23 @@
+{
+  "type": "professionsmod:alchemy",
+  "requirement": "extractor",
+  "pattern": [
+    "IGI",
+    "GWG",
+    "IGI"
+  ],
+  "key": {
+    "I": {
+      "item": "professionsmod:insulation_brick_block"
+    },
+    "G": {
+    	"item": "minecraft:glass_pane"
+    },
+    "W": {
+    	"tag": "minecraft:wool"
+    }
+  },
+  "result": {
+    "item": "professionsmod:extractor_controller_block"
+  }
+}

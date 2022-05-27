@@ -1,0 +1,19 @@
+{
+  "type": "professionsmod:smith",
+  "requirement": "basic_smithing",
+  "pattern": [
+    "#",
+    "I"
+  ],
+  "key": {
+    "#": {
+      "item": "professionsmod:golden_knifehead"
+    },
+        "I": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "professionsmod:golden_knife"
+  }
+}

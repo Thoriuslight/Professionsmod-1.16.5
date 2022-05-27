@@ -1,0 +1,15 @@
+{
+  "type": "professionsmod:alchemy_shapeless",
+  "requirement": "herbology",
+  "ingredients": [
+    {
+      "item": "minecraft:bowl"
+    },
+    {
+		"item": "professionsmod:energy_cream"
+    }
+  ],
+  "result": {
+    "item": "professionsmod:energy_bowl"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "professionsmod:clay_mixture"
+  },
+  "result": "professionsmod:insulation_brick",
+  "experience": 0.3,
+  "cookingtime": 200
+}

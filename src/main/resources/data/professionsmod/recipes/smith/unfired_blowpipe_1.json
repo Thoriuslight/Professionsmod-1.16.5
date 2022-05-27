@@ -1,0 +1,16 @@
+{
+  "type": "professionsmod:smith",
+  "requirement": "crucible",
+  "pattern": [
+    " C",
+    "C "
+  ],
+  "key": {
+    "C": {
+      "item": "minecraft:clay_ball"
+    }
+  },
+  "result": {
+    "item": "professionsmod:unfired_blowpipe"
+  }
+}

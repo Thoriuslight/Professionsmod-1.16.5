@@ -1,0 +1,11 @@
+{
+  "type": "professionsmod:crushing",
+  "requirement": "basic_smithing",
+  "hardness": 80,
+  "ingredient": {
+    "item": "professionsmod:silver_rings"
+  },
+  "result": {
+    "item": "professionsmod:silver_chain"
+  }
+}

@@ -1,0 +1,28 @@
+0.0.1.0
+-added 		Copper Pickaxe
+-added		Hammer
+-added		Stone Anvil
+-added		Casting Basin
+
+0.0.2.0
+-added		Cast selection screen
+-added		Copper Shovel and Axe
+-added		Wooden Hopper[WIP]
+-changed	the creation of bread[WIP]
+
+0.0.3.0
+-added		the ability to repair copper tools
+-added		Copper Knife
+
+0.0.3.0
+-added		Silver and golden tools
+-added		a new variant of casting basin
+-changed	how the work hardening and repair works
+
+---------------------------------------------------------
+0.0.2.0 alpha
+Added
+-inspection table
+
+fixed
+-too much space in command message

@@ -1,0 +1,12 @@
+{
+  "type": "professionsmod:grinding",
+  "requirement": "advanced_processing",
+  "ingredient": {
+    "item": "professionsmod:silver_chunk",
+    "count": 4
+  },
+  "result": {
+    "item": "professionsmod:silver_ore_dust",
+    "count": 4
+  }
+}

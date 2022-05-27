@@ -1,0 +1,16 @@
+{
+  "type": "professionsmod:smith",
+  "requirement": "basic_smithing",
+  "pattern": [
+    "# #",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:smooth_stone_slab"
+    }
+  },
+  "result": {
+    "item": "professionsmod:stonecastingbasin_block"
+  }
+}

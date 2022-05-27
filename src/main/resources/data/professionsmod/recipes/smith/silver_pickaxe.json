@@ -1,0 +1,19 @@
+{
+  "type": "professionsmod:smith",
+  "requirement": "basic_smithing",
+  "pattern": [
+    "#",
+    "I"
+  ],
+  "key": {
+    "#": {
+      "item": "professionsmod:silver_pickaxehead"
+    },
+        "I": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "professionsmod:silver_pickaxe"
+  }
+}

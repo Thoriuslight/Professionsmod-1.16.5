@@ -1,0 +1,10 @@
+{
+	"multipart": [
+	    {   "apply": { "model": "professionsmod:block/forge_block" }},
+		{   "when": {"burning": true},
+			"apply": [
+                { "model": "professionsmod:block/fire_floor0" }
+            ]
+        }
+	]
+}

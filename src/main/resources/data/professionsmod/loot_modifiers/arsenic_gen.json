@@ -1,0 +1,14 @@
+{
+  "conditions": [
+    {
+      "condition": "minecraft:random_chance",
+      "chance": 1.0
+    },
+	{
+      "condition": "professionsmod:dungeon"
+    }
+  ],
+  "item": "professionsmod:arsenic",
+  "min": 1,
+  "max": 5
+}

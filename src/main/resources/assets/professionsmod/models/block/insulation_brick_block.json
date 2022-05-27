@@ -1,0 +1,6 @@
+{
+    "parent": "block/cube_all",
+    "textures": {
+        "all": "professionsmod:blocks/insulation_brick_block"
+    }
+}

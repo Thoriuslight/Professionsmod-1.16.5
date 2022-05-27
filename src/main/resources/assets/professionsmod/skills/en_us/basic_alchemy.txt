@@ -1,0 +1,3 @@
+In order to start alchemy, create a Mortar and Pestle and an Alchemist Table. Put the Mortar and Pestle into your off-hand slot, hold the ingredient in your main-hand and hold right-click to process the item.
+You can make bread the following way: Grind wheat into flour, then mix it with water in the Alchemist Table to create a Sourdough. You don't necessarily need more than one piece. Craft a Glass Jar and put the Sourdough in it by right-clicking with the Sourdough in your main-hand. After waiting for a bit, you can remove it and combine it with water and three pieces of Flour to create some Doughs. Finally, you can bake it.
+For water, you can also fill the vanilla bowls by right-clicking on water.

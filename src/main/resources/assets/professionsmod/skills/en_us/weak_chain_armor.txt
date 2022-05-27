@@ -1,0 +1,1 @@
+Very weak, but gives a minimal protection. The rings have to be first casted and then they have to be hammered together on the anvil. A newly crafted armor doesn't have durability and has to be hammered to be usable.

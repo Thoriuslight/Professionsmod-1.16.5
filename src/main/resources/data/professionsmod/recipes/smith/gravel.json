@@ -1,0 +1,11 @@
+{
+  "type": "professionsmod:crushing",
+  "requirement": "basic_smithing",
+  "hardness": 50,
+  "ingredient": {
+    "item": "minecraft:cobblestone"
+  },
+  "result": {
+    "item": "minecraft:gravel"
+  }
+}

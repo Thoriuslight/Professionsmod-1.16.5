@@ -1,0 +1,23 @@
+{
+  "type": "professionsmod:smith",
+  "requirement": "crucible",
+  "pattern": [
+    "I I",
+    "III",
+    "CFC"
+  ],
+  "key": {
+    "I": {
+      "item": "professionsmod:insulation_brick_block"
+    },
+	"F": {
+      "item": "professionsmod:forge_block"
+    },
+	"C": {
+      "item": "minecraft:smooth_stone"
+    }
+  },
+  "result": {
+    "item": "professionsmod:crucible_block"
+  }
+}

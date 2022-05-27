@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "professionsmod:unfired_blowpipe"
+  },
+  "result": "professionsmod:blowpipe",
+  "experience": 0.1,
+  "cookingtime": 200
+}

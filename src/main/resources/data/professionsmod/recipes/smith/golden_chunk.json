@@ -1,0 +1,12 @@
+{
+  "type": "professionsmod:crushing",
+  "requirement": "basic_smithing",
+  "hardness": 100,
+  "ingredient": {
+    "item": "minecraft:gold_ore"
+  },
+  "result": {
+    "item": "professionsmod:golden_chunk",
+    "count": 9
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "professionsmod:smith",
+  "requirement": "forge",
+  "pattern": [
+    "I I",
+    "III"
+  ],
+  "key": {
+    "I": {
+      "item": "professionsmod:insulation_brick"
+    }
+  },
+  "result": {
+    "item": "professionsmod:forge_block"
+  }
+}

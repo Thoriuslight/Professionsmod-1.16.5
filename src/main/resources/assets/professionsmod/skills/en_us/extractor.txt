@@ -1,0 +1,1 @@
+Can be placed next to an oven multiblock. Some oven recipes generate extra items or fluids that are stored in the extractor. An oven can have multiple extractors to increase storage capacity.

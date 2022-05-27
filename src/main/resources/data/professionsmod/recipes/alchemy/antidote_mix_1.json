@@ -1,0 +1,21 @@
+{
+  "type": "professionsmod:alchemy_shapeless",
+  "requirement": "herbology",
+  "ingredients": [
+    {
+      "item": "minecraft:light_gray_dye"
+    },
+    {
+      "item": "minecraft:light_gray_dye"
+    },
+    {
+      "item": "minecraft:sweet_berries"
+    },
+    {
+		"item": "minecraft:snowball"
+    }
+  ],
+  "result": {
+    "item": "professionsmod:antidote_mix"
+  }
+}

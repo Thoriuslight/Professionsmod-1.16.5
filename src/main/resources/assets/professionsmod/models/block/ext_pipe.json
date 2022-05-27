@@ -1,0 +1,33 @@
+{
+	"parent": "block/cube",
+	"textures": {
+		"0": "professionsmod:blocks/crucible_drain",
+		"particle": "block/smooth_stone"
+	},
+	"elements": [
+		{
+			"from": [14, 7, 6],
+			"to": [24, 11, 10],
+			"faces": {
+				"north": {"uv": [4, 0, 9, 4], "texture": "#0"},
+				"east": {"uv": [0, 0, 4, 4], "texture": "#0"},
+				"south": {"uv": [4, 0, 9, 4], "texture": "#0"},
+				"west": {"uv": [0, 0, 4, 4], "texture": "#0"},
+				"up": {"uv": [4, 0, 9, 4], "texture": "#0"},
+				"down": {"uv": [4, 0, 9, 4], "texture": "#0"}
+			}
+		},
+		{
+			"from": [14, 1, 6],
+			"to": [24, 5, 10],
+			"faces": {
+				"north": {"uv": [4, 0, 9, 4], "texture": "#0"},
+				"east": {"uv": [0, 0, 4, 4], "texture": "#0"},
+				"south": {"uv": [4, 0, 9, 4], "texture": "#0"},
+				"west": {"uv": [0, 0, 4, 4], "texture": "#0"},
+				"up": {"uv": [4, 0, 9, 4], "texture": "#0"},
+				"down": {"uv": [4, 0, 9, 4], "texture": "#0"}
+			}
+		}
+	]
+}

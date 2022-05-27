@@ -1,0 +1,7 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "professionsmod:items/tool_rod",
+		"layer1": "professionsmod:items/head_knife"
+	}
+}

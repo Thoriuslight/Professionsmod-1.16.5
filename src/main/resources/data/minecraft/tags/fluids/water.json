@@ -1,0 +1,9 @@
+{
+	"replace": false,
+	"values": [
+		"professionsmod:creosote_fluid",
+		"professionsmod:creosote_flowing",
+		"professionsmod:plant_oil_fluid",
+		"professionsmod:plant_oil_flowing"
+	]
+}

@@ -1,0 +1,10 @@
+{
+  "type": "professionsmod:grinding",
+  "requirement": "basic_alchemy",
+  "ingredient": {
+      "item": "minecraft:beetroot"
+  },
+  "result": {
+    "item": "minecraft:red_dye"
+  }
+}

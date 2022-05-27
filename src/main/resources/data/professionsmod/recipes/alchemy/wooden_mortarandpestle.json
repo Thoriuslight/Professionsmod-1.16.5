@@ -1,0 +1,19 @@
+{
+  "type": "professionsmod:alchemy",
+  "requirement": "basic_alchemy",
+  "pattern": [
+    "#",
+    "B"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "B": {
+    	"item": "minecraft:bowl"
+    }
+  },
+  "result": {
+    "item": "professionsmod:wooden_mortarandpestle"
+  }
+}

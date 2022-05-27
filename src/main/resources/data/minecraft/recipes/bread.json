@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "professionsmod:dough"
+  },
+  "result": "minecraft:bread",
+  "experience": 0.30,
+  "cookingtime": 200
+}

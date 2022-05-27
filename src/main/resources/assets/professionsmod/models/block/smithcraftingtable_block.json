@@ -1,0 +1,8 @@
+{
+    "parent": "block/cube_bottom_top",
+    "textures": {
+        "bottom": "block/stone",
+        "top": "professionsmod:blocks/smithcrafting_table_top",
+        "side": "professionsmod:blocks/smithcrafting_table_side"
+    }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "professionsmod:alchemy_shapeless",
+  "requirement": "herbology",
+  "ingredients": [
+    {
+      "item": "minecraft:sugar_cane"
+    },
+    {
+      "item": "minecraft:orange_dye"
+    },
+    {
+      "item": "minecraft:beetroot"
+    }
+  ],
+  "result": {
+    "item": "professionsmod:breath_mix"
+  }
+}

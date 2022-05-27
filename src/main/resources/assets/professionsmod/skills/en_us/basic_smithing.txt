@@ -1,0 +1,3 @@
+Items related to smithing can be crafted in the Metalworker Table. In order to create a tool, you have to put the mined ore on the Stone Anvil and then right-click on it with a Stone Hammer until you get Ore Chunks. 
+They can be smelted into copper nuggets, which then can be crafted together with a vanilla Flower Pot and resmelted. To use the Casting Basin, fill it with Clay, select the toolhead by right-clicking on the Casting Basin with empty hands and add the molten metal to it.
+The toolhead then can be crafted together with a stick to finish the process.

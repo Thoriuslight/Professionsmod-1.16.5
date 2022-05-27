@@ -1,0 +1,10 @@
+{
+  "type": "professionsmod:grinding",
+  "requirement": "basic_alchemy",
+  "ingredient": {
+      "item": "minecraft:cocoa_beans"
+  },
+  "result": {
+    "item": "minecraft:brown_dye"
+  }
+}
