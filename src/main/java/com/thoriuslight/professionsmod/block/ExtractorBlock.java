@@ -58,7 +58,7 @@ public class ExtractorBlock extends ContainerBlock{
 	}
 	@Override
 	public ActionResultType use(BlockState p_225533_1_, World p_225533_2_, BlockPos pos, PlayerEntity player, Hand p_225533_5_, BlockRayTraceResult p_225533_6_) {
-		IProfession iProfession = player.getCapability(CapabilityProfession.PROFESSION, null).orElseThrow(IllegalStateException::new);
+		/*IProfession iProfession = player.getCapability(CapabilityProfession.PROFESSION, null).orElseThrow(IllegalStateException::new);
 		if(iProfession.getProfession() == profession.ALCHEMIST) {
 			if (p_225533_2_.isClientSide) {
 				return ActionResultType.SUCCESS;
@@ -70,7 +70,18 @@ public class ExtractorBlock extends ContainerBlock{
 				return ActionResultType.CONSUME;
 			}
 		}
-		return ActionResultType.PASS;
+		return ActionResultType.PASS;*/
+		//
+		if (p_225533_2_.isClientSide) {
+			return ActionResultType.SUCCESS;
+		} else {
+			TileEntity tileentity = p_225533_2_.getBlockEntity(pos);
+			if (tileentity instanceof ExtractorTileEntity) {
+		    	NetworkHooks.openGui((ServerPlayerEntity)player, (ExtractorTileEntity)tileentity, pos);
+		    }
+			return ActionResultType.CONSUME;
+		}
+		//
 	}
 	@Override
 	public VoxelShape getShape(BlockState p_220053_1_, IBlockReader p_220053_2_, BlockPos p_220053_3_, ISelectionContext p_220053_4_) {
@@ -133,7 +144,7 @@ public class ExtractorBlock extends ContainerBlock{
 	@Override
 	public void onRemove(BlockState state, World world, BlockPos pos, BlockState newState, boolean isMoving) {
 		if(state.getBlock() != newState.getBlock()) {
-			for(Direction direction : Direction.Plane.HORIZONTAL) {
+			/*for(Direction direction : Direction.Plane.HORIZONTAL) {
 				BlockState state1 = world.getBlockState(pos.relative(direction));
 				if(state1.getBlock() == BlockInit.OVEN_BRICK_BLOCK.get()) {
 		    		TileEntity tile = world.getBlockEntity(OvenBrickBlock.getControllerPos(pos.relative(direction), state1));
@@ -141,7 +152,7 @@ public class ExtractorBlock extends ContainerBlock{
 		    			((OvenControllerTileEntity)tile).removeExtractor(pos);
 		    		}
 				};
-			}
+			}*/
 			TileEntity tileentity = world.getBlockEntity(pos);
 			if(tileentity instanceof IInventory) {
 		        InventoryHelper.dropContents(world, pos, (IInventory)tileentity);

@@ -1,5 +1,6 @@
 package com.thoriuslight.professionsmod.tileentity;
 
+import com.thoriuslight.professionsmod.init.FluidInit;
 import com.thoriuslight.professionsmod.init.ItemInit;
 import com.thoriuslight.professionsmod.init.ModTileEntityTypes;
 import com.thoriuslight.professionsmod.inventory.container.ExtractorContainer;
@@ -33,18 +34,12 @@ public class ExtractorTileEntity extends TileEntity  implements INamedContainerP
 	protected FluidStack fluid = FluidStack.EMPTY;
 	public ExtractorTileEntity(TileEntityType<?> tileEntityTypeIn) {
 		super(tileEntityTypeIn);
+		//temp 
+		this.fluid = new FluidStack(FluidInit.CREOSOTE_FLUID.get(), 3000);
+		//
 	}
 	public ExtractorTileEntity() {
 		this(ModTileEntityTypes.EXTRACTOR.get());
-	}
-	public boolean addItem(ItemStack stack) {
-		for(int i = 0; i < 9; ++i){
-			if(this.getItem(i).isEmpty()) {
-				this.setItem(i, stack);
-				return true;
-			}
-		}
-		return false;
 	}
 	@Override
 	public Container createMenu(int p_createMenu_1_, PlayerInventory p_createMenu_2_, PlayerEntity p_createMenu_3_) {
@@ -94,6 +89,15 @@ public class ExtractorTileEntity extends TileEntity  implements INamedContainerP
 		}
 	};
 	//-----------------------------------------------------Inventory-----------------------------------------------------
+	public boolean addItem(ItemStack stack) {
+		for(int i = 0; i < 9; ++i){
+			if(this.getItem(i).isEmpty()) {
+				this.setItem(i, stack);
+				return true;
+			}
+		}
+		return false;
+	}
 	@Override
 	public void clearContent() {
 		this.items.clear();
@@ -216,6 +220,7 @@ public class ExtractorTileEntity extends TileEntity  implements INamedContainerP
 	public FluidStack drain(FluidStack resource, FluidAction action) {
 		return null;
 	}
+	//-----------------------------------------------------Rendering-----------------------------------------------------
 	@Override
 	public AxisAlignedBB getRenderBoundingBox() {
 		return new AxisAlignedBB(worldPosition.offset(-1, 0, -1), worldPosition.offset(2, 2, 2));

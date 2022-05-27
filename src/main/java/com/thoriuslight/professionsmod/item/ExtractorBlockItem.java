@@ -27,7 +27,7 @@ public class ExtractorBlockItem extends BlockItem{
 	@Override
 	@Nullable
 	protected BlockState getPlacementState(BlockItemUseContext context) {
-		IProfession iProfession = context.getPlayer().getCapability(CapabilityProfession.PROFESSION, null).orElseThrow(IllegalStateException::new);
+		/*IProfession iProfession = context.getPlayer().getCapability(CapabilityProfession.PROFESSION, null).orElseThrow(IllegalStateException::new);
 		if(iProfession.getProfession() == profession.ALCHEMIST && iProfession.getSkillTalent(SkillInit.EXTRACTOR.getId())) {
 			BlockState blockstate = this.getBlock().getStateForPlacement(context);
 			if(blockstate != null) {
@@ -48,6 +48,9 @@ public class ExtractorBlockItem extends BlockItem{
 				}
 			}
 		}
-	    return null;
+	    return null;*/
+		//temp
+		return BlockInit.EXTRACTOR_CONTROLLER_BLOCK.get().getStateForPlacement(context);
+		//
 	}
 }
