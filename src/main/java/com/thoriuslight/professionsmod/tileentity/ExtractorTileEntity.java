@@ -3,8 +3,6 @@ package com.thoriuslight.professionsmod.tileentity;
 import com.thoriuslight.professionsmod.init.ItemInit;
 import com.thoriuslight.professionsmod.init.ModTileEntityTypes;
 import com.thoriuslight.professionsmod.inventory.container.ExtractorContainer;
-import com.thoriuslight.professionsmod.network.ModPacketHandler;
-
 import net.minecraft.block.BlockState;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.player.PlayerInventory;
